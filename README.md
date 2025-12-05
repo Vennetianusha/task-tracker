@@ -42,14 +42,13 @@ A simple full-stack Task Tracker application built using:
 ## 📂 Project Structure
 
 task-tracker/
-│
-├── backend/
-│ ├── server.js
-│ ├── package.json
-│ └── node_modules/
-│
-└── frontend/
-└── index.html
+|-- backend/
+| |-- server.js
+| |-- package.json
+| |-- node_modules/
+|
+|-- frontend/
+| |-- index.html
 
 ---
 
