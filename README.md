@@ -40,6 +40,7 @@ A simple full-stack Task Tracker application built using:
 ---
 
 ## 📂 Project Structure
+
 task-tracker/
 │
 ├── backend/
