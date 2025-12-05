@@ -1,97 +1,96 @@
-📌 Task Tracker — Full Stack Project
+# 🚀 Task Tracker — Full Stack Project
 
 A simple full-stack Task Tracker application built using:
 
-Node.js + Express (Backend)
+- **Node.js + Express** (Backend)
+- **MySQL** (Database)
+- **HTML + CSS + JavaScript** (Frontend)
+- **Bootstrap** (UI Styling)
 
-MySQL (Database)
+---
 
-HTML + CSS + JavaScript (Frontend)
+## ✨ Features
 
-Bootstrap (UI styling)
+- Add new tasks  
+- View all tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- Stores data permanently in MySQL  
+- Clean and simple UI  
 
-🚀 Features
+---
 
-✔ Add new tasks
-✔ View all tasks
-✔ Mark tasks as completed
-✔ Delete tasks
-✔ Stores data permanently in MySQL
-✔ Clean and simple UI
+## 🛠 Tech Stack
 
-🏗️ Tech Stack
-Frontend
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+- Bootstrap  
 
-HTML
+### Backend
+- Node.js  
+- Express.js  
+- Body-Parser  
+- CORS  
 
-CSS
+### Database
+- MySQL  
 
-JavaScript
+---
 
-Bootstrap UI
-
-Backend
-
-Node.js
-
-Express.js
-
-CORS
-
-Body Parser
-
-Database
-
-MySQL
-
-phpMyAdmin / MySQL Workbench
-
-📂 Project Structure
+## 📂 Project Structure
 task-tracker/
 │
 ├── backend/
-│   ├── server.js
-│   ├── package.json
-│   └── node_modules/
+│ ├── server.js
+│ ├── package.json
+│ └── node_modules/
 │
 └── frontend/
-    └── index.html
+└── index.html
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/YOUR-USERNAME/task-tracker.git
-cd task-tracker/backend
+---
 
-2️⃣ Install backend dependencies
-npm install
+## ⚙️ API Endpoints
 
-3️⃣ Start backend
-node server.js
+| Method | Endpoint        | Description           |
+|--------|-----------------|-----------------------|
+| GET    | `/tasks`        | Get all tasks         |
+| POST   | `/tasks`        | Add a new task        |
+| PUT    | `/tasks/:id`    | Update task status    |
+| DELETE | `/tasks/:id`    | Delete a task         |
 
+---
 
-Backend runs at:
+## 🗄 Database Setup
 
-http://localhost:3000
-
-4️⃣ Open frontend
-
-Open:
-
-frontend/index.html
-
-
-or use Live Server extension.
-
-🗄️ Database Setup (MySQL)
+```sql
 CREATE DATABASE task_tracker;
 
 CREATE TABLE tasks (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255),
   description TEXT,
-  status ENUM('Pending', 'Completed') DEFAULT 'Pending'
+  status ENUM('Pending','Completed') DEFAULT 'Pending'
 );
+▶️ Running the Backend
+cd backend
+npm install
+node server.js
 
-🎯 Conclusion
 
-This project demonstrates a complete beginner-friendly full-stack development workflow including backend API creation, frontend integration, and database interaction.
+Backend will run at:
+
+http://localhost:3000
+
+▶️ Running the Frontend
+
+Open:
+
+frontend/index.html
+
+👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/Vennetianusha
