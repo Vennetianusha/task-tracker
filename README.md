@@ -78,7 +78,8 @@ CREATE TABLE tasks (
 );
 
 
-----
+
+
 ▶️ Running the Backend
 cd backend
 npm install
