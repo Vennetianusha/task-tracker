@@ -76,6 +76,9 @@ CREATE TABLE tasks (
   description TEXT,
   status ENUM('Pending','Completed') DEFAULT 'Pending'
 );
+
+
+----
 ▶️ Running the Backend
 cd backend
 npm install
